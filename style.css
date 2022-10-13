@@ -48,7 +48,7 @@ body {
 .button-cta:hover {
     background-color: rgb(25, 92, 25);
 }
-.container-passoword {
+.container-password {
     max-width: 480px;
     margin:14px o;
     display: flex;
@@ -75,10 +75,35 @@ body {
     border: 1px solid white;
     transition:  transform 0.5s;
 }
-.passoword:hover {
+.password:hover {
     transform: scale(1.05);
 
 }
+.tooltip{
+    color: aliceblue;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgba(15, 15, 15, 0.979);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0,5s ease-in-out;
+}
+.hide{
+    display: none;
+}
+.container-password:hover .tooltip { 
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+
+
+
 
 
 
