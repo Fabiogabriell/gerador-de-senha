@@ -45,7 +45,7 @@ body {
 .button-cta {
     height: 40px;
     margin-top: 40px;
-    background-color: #3EB72B;
+    background-color: #02470b;
     border: 0;
     border-radius: 4px;
     color: #FFF;
@@ -54,7 +54,7 @@ body {
     cursor: pointer;
 }
 .button-cta:hover{
-    background-color: #6ff55a;
+    background-color: #163611;
 }
 
 .container-password {
